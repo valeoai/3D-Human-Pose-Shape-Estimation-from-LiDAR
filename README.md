@@ -39,10 +39,10 @@ If you know of a paper on 3D Human Pose Estimation or Human Mesh Reconstruction 
 # 1. 3D Human Pose Estimation From LIDAR Point Clouds <a name="1"></a>
 
 ## 1.1. Comparative Summary of Human Pose Estimation or Human Mesh Reconstruction Methods <a name="1.1"></a>
-![Alt text](path/to/image.png)
+![](resources/summary.png)
 
 ## 1.2. Comparing Network Architectures of Human Pose Estimation or Human Mesh Reconstruction Methods <a name="1.2"></a>
-![Alt text](path/to/image.png)
+![](resources/summary_network_arch.png)
 
 # 2. 3D Human Pose Estimation From LIDAR Point Clouds <a name="2"></a>
 
