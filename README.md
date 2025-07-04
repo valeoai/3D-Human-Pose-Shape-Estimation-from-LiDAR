@@ -14,10 +14,15 @@ BibTeX entry:
         }
 ```
 
+
+
 ## How to request addition of a paper
 
 If you know of a paper on 3D Human Pose Estimation or Human Mesh Reconstruction from LiDAR Point Clouds, you are welcome to contribute by submitting a pull request. In your submission, please indicate the section where your paper fits best within the repository’s taxonomy.
 
+## Contact
+
+Please contact Salma Galaaoui (salma.galaaoui@valeo.com) for your questions.
 
 # Table of Contents 
 
@@ -168,6 +173,3 @@ If you know of a paper on 3D Human Pose Estimation or Human Mesh Reconstruction 
 
 - to be added
 
-
-# Contact 
-Please contact Salma Galaaoui (salma.galaaoui@valeo.com) for your questions.
