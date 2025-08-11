@@ -168,8 +168,17 @@ Please contact Salma Galaaoui (salma.galaaoui@valeo.com) for your questions.
   - How to access the dataset (e.g., download link, API)
   - Licensing information and usage restrictions
 
+# 5. Technical Details for Extracting Dataset Statistics <a name="5"></a>
+**Waymo Open Dataset** 
+We extract statics for Waymo mostly using their v4.0.1 Apache parquet files. We filter out objects labelled as pedestrian (label 2) and cyclist (label 4) following their labelling protocol file from their 'camera\_box' dataframes, then we compute average bounding box size. For the average distance from sensor and the number of 3D keypoint frames, we use the 'lidar\_hkp' dataframe and compute the average distance of the 14 keypoints that are already in LiDAR coordinate frame. We also report the horizontal resolution for the TOP Lidar and thus its pointcloud resolution from the 'lidar' dataframe. Finally for the 3D pose diversity we use postprocessed files from the authors of LiDAR-HMR that provide ground truth meshes generated using SiMPLify, we remove the rotation and translation and compute the average MSE between the posed ground truth mesh a T-posed mesh with the same betas, as show below.
 
-## 4.3. Human-M3 <a name="4.3"></a>
+**SLOPER4D** 
+We extract our statistic integrally from the SLOPER4D v1.0 dataset files. Most information is available through their dataloader, we use their segmented human points which are in LiDAR coordinate frame to compute average points per instance as well as the average distance to sensor. For 3D pose diversity we use the same method we used with Waymo Open Dataset. We additionally compute average sequence length using the average number of RGB frames and the framerate. Note that we report our statistics based on the 6 out of 15 sequences released yielding 33k LiDAR frames instead of the 100k announced in their paper.
 
-- to be added
+**Human-M3** 
+TBD
+
+![](resources/pose_variability_3d.png)
+
+*We compute 3D pose variability by aligning the posed SMPL model (purple) with the template model in T-pose (pink) and compute the MSE between the joints (orange and green respectively)*
 
