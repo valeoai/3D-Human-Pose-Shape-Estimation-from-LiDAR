@@ -57,7 +57,6 @@ Please contact Salma Galaaoui (salma.galaaoui@valeo.com) for your questions.
 - LidPose, Sensors 2024, [[paper]](https://www.mdpi.com/1424-8220/24/11/3427)
 - LPFormer, ICRA 2024, [[paper]](https://arxiv.org/abs/2306.12525) 
 - MMVP, arXiv 2023, [[paper]](https://arxiv.org/abs/2308.00628) 
-- PCAR, ICRA 2023, [[paper]](https://arxiv.org/abs/2306.01075) 
 - UniPVU-Human, CVPR 2024, [[paper]](https://arxiv.org/abs/2403.20031) 
 - VoxelKP, ICCV 2025, [[paper]](https://arxiv.org/abs/2312.08871) 
 
