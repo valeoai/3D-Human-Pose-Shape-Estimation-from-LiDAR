@@ -6,7 +6,7 @@ S. Galaaoui, E. Valle, D. Picard, N.Samet, "3D Human Pose and Shape Estimation f
 
 BibTeX entry:
 ```
-@ARTICLE{imbalance,
+@ARTICLE{lidarhpehmr,
        author = {Salma Galaaoui and Eduardo Valle and David Picard and Nermin Samet},
         title = "{3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review}",
         journal = {arXiv},
