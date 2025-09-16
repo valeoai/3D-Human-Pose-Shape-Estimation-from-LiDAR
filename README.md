@@ -2,16 +2,16 @@
 
 This repository provides an up-to-date collection of papers focused on 3D Human Pose and Shape Estimation from LiDAR Point Clouds. The organization of the repository follows the taxonomy introduced in the paper below. Please cite our paper if you benefit from this repository:
 
-S. Galaaoui, E. Valle, D. Picard, N.Samet, "3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review", arXiv, 2025. [[preprint]](https://arxiv.org/abs/????)
+S. Galaaoui, E. Valle, D. Picard, N.Samet, "3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review", arXiv, 2025. [[preprint]](https://arxiv.org/abs/2509.12197)
 
 BibTeX entry:
 ```
-@ARTICLE{lidarhpehmr,
-       author = {Salma Galaaoui and Eduardo Valle and David Picard and Nermin Samet},
-        title = "{3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review}",
-        journal = {arXiv},
-        year = "2025"
-        }
+@article{galaaoui20253dhumanposeshape,
+      title={{3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review}}, 
+      author={Salma Galaaoui and Eduardo Valle and David Picard and Nermin Samet},
+      year={2025},
+      journal={arXiv preprint arXiv:2509.12197}
+}
 ```
 
 
