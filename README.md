@@ -174,7 +174,7 @@ We extract our statistics integrally from the Human-M3 dataset files. We compute
 | PC resolution | 169600 | 131072 | 80928 |
 | Range (m) | 20/75 | 90 | 90 |
 | Framerate (Hz) | 10 | 20 | 10 |
-| FOV (hfov $\times$ vfov) | 25.2 $\textdegree$ $\times$ 120/20 $\textdegree$ | 42.2 $\textdegree$ $\times$ 360 $\textdegree$ | 100 $\textdegree$ $\times$ 40 $\textdegree$ |
+| FOV (hfov $\times$ vfov) | 25.2 $\textdegree$ $\times$ 120/20 $\textdegree$ | 360 $\textdegree$ $\times$ 42.2 $\textdegree$ | 98.4 $\textdegree$ $\times$ 38.4 $\textdegree$ |
 
 $\dagger$ Sensor uses an NRS pattern with three laser beams, scanning at 300,000 points/s.
 
